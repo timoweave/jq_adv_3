@@ -1,0 +1,61 @@
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#new-contact {
+    display: inline-block;
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    margin: 2em;
+}
+
+#new-contact label, textarea {
+    background-color: inherit;
+    display: block;
+    padding-bottom: 1em;
+}
+
+#new-contact textarea {
+    width:100%;
+    height:10em;
+    margin-top: 1em;
+}
+
+#new-contact input[type=text] {
+    background-color: inherit;
+    width: 50%;
+    margin:0px;
+    padding:0px;
+    overflow:hidden;
+}
+
+#new-contact > input[type=submit] {
+    background-color: inherit; /* NOTE: wont work without it? */
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size:1em;
+}
+
+#contact-list {
+    vertical-align: top;
+    display: inline-block;
+    list-style: none;
+    width: 40%;
+    item-align: right;
+    border-left:1px solid darkgrey;
+    margin-left:2em;
+    padding-top:0px;
+}
+
+#contact-list li {
+    display: block;
+    background-color: #dae2ea;
+    border: 0.2em solid darkgrey;
+    padding-top: 0px;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: 1em;
+}
